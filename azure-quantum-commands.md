@@ -38,6 +38,12 @@ or
 az quantum job submit --target-id ionq.qpu.aria-1 --shots 30 -o table 
 ```
 
+of Rigetti 
+
+```
+az quantum job submit --target-id rigetti.qpu.aspen-m-2 --shots 30 -o table 
+```
+
 ## show job status
 
 ```
