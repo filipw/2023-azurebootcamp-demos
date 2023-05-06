@@ -26,6 +26,12 @@ az quantum target list -o table
 az quantum execute --target-id ionq.simulator -o table
 ```
 
+or Rigetti
+
+```
+az quantum job submit --target-id rigetti.sim.qvm -o table 
+```
+
 ## submit job
 
 ```
